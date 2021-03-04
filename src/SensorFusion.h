@@ -75,7 +75,7 @@ public:
 		return _copyQuat;
 	}
 
-private:
+public:
 	float beta;				//Madgwick: 2 * proportional gain
 	float twoKp;			//Mahony: 2 * proportional gain (Kp)
 	float twoKi;			//Mahony: 2 * integral gain (Ki)
